@@ -81,8 +81,6 @@ userInput.addEventListener ('submit', (e)=> {
 function openForm() {
     forma.style.display = "block";
     formBtn.style.setProperty('box-shadow', 'none');
-    const audio = new Audio("./sounds/click_1.wav")
-    audio.play();
 }
   
 function closeForm() {
